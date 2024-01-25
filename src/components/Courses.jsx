@@ -20,11 +20,10 @@ const Courses = () => {
               alt="Electronics and telecommunication"
             ></img>
             <span className="text-xl font-bold mb-4">
-              Electronics and telecommunication
+              Bachelor degree in <br></br>Electronics and telecommunication
             </span>
-             
           </div>
- 
+
           <div class="bg-white shadow-md p-6 rounded-lg  transition-transform transform hover:scale-105 cursor-pointer">
             <img
               src="https://i0.wp.com/digirupt.io/wp-content/uploads/2019/04/distributedgrid.jpg?fit=1200%2C800&ssl=1"
@@ -32,7 +31,7 @@ const Courses = () => {
               alt="Electrical and renewable energy"
             ></img>
             <span className="text-xl font-bold mb-4">
-              Electrical and renewable energy
+              Bachelor degree in <br /> Electrical and renewable energy
             </span>
           </div>
 
@@ -43,7 +42,7 @@ const Courses = () => {
               alt="Robotics and Mechatronics"
             ></img>
             <span className="text-xl font-bold mb-4">
-              Robotics and Mechatronics
+              Bachelor degree in <br /> Robotics and Mechatronics
             </span>
           </div>
         </div>
@@ -59,16 +58,21 @@ const Courses = () => {
               class="w-75 h-64"
             ></img>
             <span class="text-xl font-bold mb-4">
-              Computer science and Artificial intelligent
+              Bachelor degree in <br /> Computer science and Artificial
+              intelligent
             </span>
           </div>
 
           <div class="bg-white shadow-md p-6 rounded-lg transition-transform transform hover:scale-105 cursor-pointer">
             <img
-              src="https://www.autotrainingcentre.com/wp-content/uploads/2015/06/automotive-service-advisor.png"
+              src="https://media.licdn.com/dms/image/D4D12AQEX7UIsfWeeSQ/article-cover_image-shrink_720_1280/0/1676291348686?e=2147483647&v=beta&t=FAXQPYUkYNuOSaEJ3NQlGFBv70T7mIv87zWKQvq6ONw"
               class="w-75 h-64"
             ></img>
-            <span class="text-xl font-bold mb-4">Mechanics</span>
+            <span class="text-xl font-bold mb-4">
+              {" "}
+              Bachelor degree in
+              <br /> Mechanics
+            </span>
           </div>
 
           <div class="bg-white shadow-md p-6 rounded-lg transition-transform transform hover:scale-105 cursor-pointer">
@@ -77,7 +81,62 @@ const Courses = () => {
               class="w-75 h-64"
             ></img>
             <span class="text-xl font-bold mb-4">
-              Civil engineering and Architecture
+              Bachelor degree in <br /> Civil engineering and Architecture
+            </span>
+          </div>
+        </div>
+      </div>
+
+      {/* third row */}
+
+      <div class="">
+        <div class="flex flex-col md:flex-row md:justify-center items-center space-y-4 md:space-x-4 md:space-y-0 p-10">
+          <div class="bg-white shadow-md p-6 rounded-lg transition-transform transform hover:scale-105 cursor-pointer">
+            <img
+              src="https://gnnhd.tv/media/90775/conversions/351146_9914876_updates-1280x720.webp"
+              class="w-75 h-64"
+            ></img>
+            <span class="text-xl font-bold mb-4">
+              Bachelor degree in <br /> petroleum
+            </span>
+          </div>
+
+          <div class="bg-white shadow-md p-6 rounded-lg transition-transform transform hover:scale-105 cursor-pointer">
+            <img
+              src="https://upload-china-admissions.imgix.net/uploads/school_pictures/NUUA_internal.jpg?auto=format,enhance,redeye,compress,true"
+              class="w-75 h-64"
+            ></img>
+            <span class="text-xl font-bold mb-4">
+              {" "}
+              Bachelor degree in <br /> Aeronautics and Aerospace Engineering{" "}
+            </span>
+          </div>
+
+          <div class="bg-white shadow-md p-6 rounded-lg transition-transform transform hover:scale-105 cursor-pointer">
+            <img
+              src="https://pasdept.wisc.edu/wp-content/uploads/sites/384/2023/06/Designed-farm-fields.jpeg"
+              class="w-75 h-64"
+            ></img>
+            <span class="text-xl font-bold mb-4">
+              {" "}
+              Bachelor degree in <br /> Agronomy
+            </span>
+          </div>
+        </div>
+      </div>
+
+      {/* fourth row */}
+
+      <div class="">
+        <div class="flex flex-col md:flex-row md:justify-left items-left space-y-4 md:space-x-4 md:space-y-0 p-10">
+          <div class="bg-white shadow-md p-6 rounded-lg transition-transform transform hover:scale-105 cursor-pointer">
+            <img
+              src="https://internationaljournalofresearch.files.wordpress.com/2020/07/images-6-2.jpeg?w=672&h=372&crop=1"
+              class="w-75 h-64"
+            ></img>
+            <span class="text-xl font-bold mb-4">
+              {" "}
+              Bachelor Degree in <br /> Economics and business studies
             </span>
           </div>
         </div>
