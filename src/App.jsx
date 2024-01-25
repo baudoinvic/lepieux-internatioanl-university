@@ -1,5 +1,6 @@
 
 import './App.css'
+import Blog from './components/Blog'
 import Campus from './components/Campus'
 import Courses from './components/Courses'
 import Header from './components/Header'
@@ -17,6 +18,7 @@ function App() {
      <Campus />
      <Courses />
      <Quote />
+     <Blog />
     </>
   )
 }
