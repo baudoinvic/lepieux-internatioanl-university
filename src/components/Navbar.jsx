@@ -45,20 +45,11 @@ const Navbar = () => {
         </button>
       </div>
 
-      {/* <div className="bg-blue-500 p-9 flex items-center space-x-8 justify-end cursor-pointer">
-        <ul className="text-white">Home</ul>
-        <Link to="/About">
-          <ul className="text-white">About Us</ul>
+      <div className="bg-blue-500 p-9 flex items-center space-x-8 justify-end cursor-pointer relative z-10">
+        <Link to="/Homepage">
+          <ul className="text-white">Home</ul>
         </Link>
 
-        <ul className="text-white">Courses</ul>
-        <ul className="text-white">Academics</ul>
-        <ul className="text-white">Blog</ul>
-        <ul className="text-white">Contact</ul>
-      </div> */}
-
-      <div className="bg-blue-500 p-9 flex items-center space-x-8 justify-end cursor-pointer relative z-10">
-        <ul className="text-white">Home</ul>
         <Link to="/About">
           <ul className="text-white">About Us</ul>
         </Link>
@@ -158,7 +149,9 @@ const Navbar = () => {
           )}
         </div>
         <ul className="text-white">Blog</ul>
-        <ul className="text-white">Contact</ul>
+        <Link to="/Contact">
+          <ul className="text-white">Contact Us</ul>
+        </Link>
       </div>
     </div>
   );
