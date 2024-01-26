@@ -1,6 +1,7 @@
 import React from 'react'
 import { MdOutlineEmail } from "react-icons/md";
 import { IoCallOutline } from "react-icons/io5";
+import { Link } from 'react-router-dom';
 
 const Navbar = () => {
   return (
@@ -33,9 +34,12 @@ const Navbar = () => {
         </button>
       </div>
 
-      <div className="bg-blue-500 p-9 flex items-center space-x-8 justify-end">
+      <div className="bg-blue-500 p-9 flex items-center space-x-8 justify-end cursor-pointer">
         <ul className="text-white">Home</ul>
-        <ul className="text-white">About</ul>
+        <Link to="/About">
+          <ul className="text-white">About Us</ul>
+        </Link>
+
         <ul className="text-white">Courses</ul>
         <ul className="text-white">Staff</ul>
         <ul className="text-white">Blog</ul>
