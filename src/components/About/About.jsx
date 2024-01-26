@@ -23,7 +23,7 @@ const About = () => {
 
           <div className="flex items-center">
             <IoIosArrowRoundForward className="text-white text-lg" />
-            <span className="mr-2 text-lg text-white">Home</span>
+            <span className="mr-2 text-lg text-white cursor-pointer">Home</span>
 
             <span className="ml-2 text-lg text-blue-500">About us</span>
           </div>
