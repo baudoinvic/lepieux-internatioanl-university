@@ -4,12 +4,12 @@ const Header = () => {
     
   return (
     <div className="header relative overflow-hidden" data-overlay-dark="6">
-      <div class="slider flex transition-transform ease-in-out duration-500">
-        <div class="slide min-w-full overflow-hidden relative">
+      <div class="slider flex transition-transform ease-in-out duration-500  ">
+        <div class="slide min-w-full overflow-hidden relative ">
           <img
             src="https://preview.colorlib.com/theme/fox/images/bg_3.jpg.webp"
             alt="Image 1"
-            class="w-full  "
+            class="w-full inset-0 bg-black opacity-65 "
             style={{ height: "1000px" }}
           ></img>
           <div class="text-overlay absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-center text-white ml-20">

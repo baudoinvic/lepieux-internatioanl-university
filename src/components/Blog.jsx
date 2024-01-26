@@ -13,8 +13,8 @@ const Blog = () => {
         </p>
       </div>
 
-      <div className="flex justify-between mt-16">
-        <div className="flex flex-col items-center mx-20">
+      <div className="flex justify-between mt-16  shadow-lg">
+        <div className="flex flex-col items-center mx-20  shadow-lg bg-white">
           <img
             src="https://preview.colorlib.com/theme/fox/images/image_2.jpg.webp"
             alt="Image 1"
@@ -30,7 +30,7 @@ const Blog = () => {
           </p>
         </div>
 
-        <div className="flex flex-col items-center mx-20">
+        <div className="flex flex-col items-center mx-20 shadow-lg bg-white">
           <img
             src="https://preview.colorlib.com/theme/fox/images/image_4.jpg.webp"
             alt="Image 2"
@@ -46,7 +46,7 @@ const Blog = () => {
           </p>
         </div>
 
-        <div className="flex flex-col items-center mx-20">
+        <div className="flex flex-col items-center mx-20 shadow-lg bg-white">
           <img
             src="https://preview.colorlib.com/theme/fox/images/image_1.jpg.webp"
             alt="Image 3"
