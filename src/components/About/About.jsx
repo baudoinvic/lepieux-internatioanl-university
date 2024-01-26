@@ -6,6 +6,7 @@ import Footer from "../Footer";
  import { PiLampBold } from "react-icons/pi";
 import { SiYamahamotorcorporation } from "react-icons/si";
 import Blog from "../Blog";
+import { Link } from "react-router-dom";
 
 const About = () => {
   return (
@@ -14,8 +15,8 @@ const About = () => {
       <div class="relative">
         <img
           class="w-full object-cover shadow-md"
-          style={{ height: "550px" }}
-          src="https://campus.websitelayout.net/img/bg/page-title.jpg"
+          style={{ height: "600px" }}
+          src="https://img.freepik.com/free-photo/flat-lay-workstation-with-copy-space-laptop_23-2148430879.jpg?size=626&ext=jpg&ga=GA1.1.1448711260.1706227200&semt=ais"
           alt="Description"
         />
 
@@ -29,9 +30,11 @@ const About = () => {
 
           <div className="flex items-center">
             <IoIosArrowRoundForward className="text-white text-2xl font-bold" />
-            <span className="mr-2 text-lg text-white cursor-pointer font-bold">
-              Home
-            </span>
+            <Link to="/Homepage">
+              <span className="mr-2 text-lg text-white cursor-pointer font-bold">
+                Home
+              </span>
+            </Link>
 
             <span className="ml-2 text-lg text-blue-500 font-bold">
               About us
@@ -40,7 +43,7 @@ const About = () => {
         </div>
       </div>
 
-      <div class="flex flex-col md:flex-row md:mr-3 md:ml-3 md:mt-7 shadow-md">
+      <div class="flex flex-col md:flex-row md:mr-3 md:ml-3 md:mt-7 shadow-md  ml-10 mr-10">
         <div class="w-full md:w-1/2 p-8">
           <h1 class="text-gray-800 text-3xl font-bold mb-4">
             Welcome to Le Pieux International University
@@ -81,7 +84,7 @@ const About = () => {
           </div>
         </div>
       </div>
-      <div className="flex flex-col md:flex-row justify-center items-center space-y-4 md:space-y-0 md:space-x-4 p-10 mt-16">
+      <div className="flex flex-col md:flex-row justify-center items-center space-y-4 md:space-y-0 md:space-x-4 p-10 mt-16 ml-10 mr-10">
         <div className="bg-white p-6 rounded-lg shadow-md  transition-transform transform hover:scale-105 cursor-pointer">
           <FaEye className="text-gray-800 text-4xl mb-4" />
           <span className="text-xl font-bold mb-4">Our Vision</span>
@@ -90,7 +93,7 @@ const About = () => {
             role in national development by nurturing a generation of
             well-educated citizens who possess the skills and knowledge to
             tackle the complexities of developmental challenges. We place
-            significant emphasis on quality education,  Contribute to the
+            significant emphasis on quality education, Contribute to the
             national development by providing well-educated citizens capable of
             handling developmental challenges.
           </p>
@@ -122,7 +125,7 @@ const About = () => {
           </p>
         </div>
       </div>
-       <Blog />
+      <Blog />
       <Footer />
     </div>
   );

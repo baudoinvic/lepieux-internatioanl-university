@@ -2,7 +2,7 @@ import React from 'react'
 
 const Courses = () => {
   return (
-    <div className="courses">
+    <div className="courses ml-10 mr-10">
       <div class="flex flex-col items-center justify-center mt-16">
         <span class="block text-center text-4xl font-bold text-gray-800 mb-4">
           Courses

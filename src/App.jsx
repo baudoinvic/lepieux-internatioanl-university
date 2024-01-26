@@ -13,6 +13,7 @@ import Quote from './components/Quote'
 
 import { BrowserRouter, Routes, Route, Outlet } from "react-router-dom";
 import Application from './components/Requirement/Application'
+import Blogs from './components/Blogs/Blogs'
 
 function App() {
 
@@ -58,6 +59,7 @@ function App() {
           <Route path="/Contact" element={<Contact />} />
           <Route path="/homepage" element={<Homepage />} />
            <Route path='/Application' element={<Application/>} />
+           <Route path='/Blogs' element={<Blogs/>} />
         </Routes>
       </BrowserRouter>
        

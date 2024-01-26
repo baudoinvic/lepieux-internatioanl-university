@@ -2,7 +2,7 @@ import React from 'react'
 
 const Blog = () => {
   return (
-    <div className="mt-16">
+    <div className="mt-16 ml-10 mr-10">
       <div className="title text-center">
         <span className="text-4xl font-bold text-gray-800">Recent Blog</span>
         <p className="text-base text-gray-600 mt-8">

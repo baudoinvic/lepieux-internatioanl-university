@@ -10,10 +10,15 @@ const Navbar = () => {
 
 
        const [showAcademics, setShowAcademics] = useState(false);
+       const [showCourses, setShowCourses] = useState (false)
 
        const toggleAcademics = () => {
          setShowAcademics(!showAcademics);
        };
+
+         const toggleCourses = () => {
+           setShowCourses(!showCourses);
+         };
 
   return (
     <div className="fixed top-0 w-full z-50 ">
@@ -53,16 +58,18 @@ const Navbar = () => {
         <Link to="/About">
           <ul className="text-white">About Us</ul>
         </Link>
-        <ul className="text-white">Courses</ul>
-        {/* Dropdown for Academics */}
-        <div className="relative">
+        {/* <ul className="text-white">Courses</ul> */}
+
+        {/*Dropdown for Courses*/}
+
+        <div className="relative ">
           <ul
             className="text-white flex items-center"
-            onClick={toggleAcademics}
+            onClick={toggleCourses}
           >
-            Academics <RiArrowDropDownLine className="ml-1" />
+            Courses <RiArrowDropDownLine className="ml-1" />
           </ul>
-          {showAcademics && (
+          {showCourses && (
             <div
               className="absolute bg-white mt-1 rounded overflow-hidden shadow-md opacity-80"
               style={{ maxHeight: "550px" }}
@@ -148,7 +155,73 @@ const Navbar = () => {
             </div>
           )}
         </div>
-        <ul className="text-white">Blog</ul>
+
+        {/* Dropdown for Academics */}
+        <div className="relative">
+          <ul
+            className="text-white flex items-center"
+            onClick={toggleAcademics}
+          >
+            Academics <RiArrowDropDownLine className="ml-1" />
+          </ul>
+          {showAcademics && (
+            <div
+              className="absolute bg-white mt-1 rounded overflow-hidden shadow-md opacity-80"
+              style={{ maxHeight: "550px" }}
+            >
+              <ul className="p-2 divide-y divide-blue-500">
+                {/* List of academic links */}
+                <li>
+                  <Link
+                    to="/electronics"
+                    className="block py-2 px-4 hover:bg-blue-500 hover:text-white"
+                  >
+                    Faculty of Computing and Information Sciences
+                  </Link>
+                </li>
+                <li>
+                  <Link
+                    to="/electrical"
+                    className="block py-2 px-10 hover:bg-blue-500 hover:text-white"
+                  >
+                    Fuculty of Engineering
+                  </Link>
+                </li>
+
+                <li>
+                  <Link
+                    to="/electronics"
+                    className="block py-2 px-4 hover:bg-blue-500 hover:text-white"
+                  >
+                    Faculty of Petroleum Engineering
+                  </Link>
+                </li>
+
+                <li>
+                  <Link
+                    to="/electronics"
+                    className="block py-2 px-4 hover:bg-blue-500 hover:text-white"
+                  >
+                    Faculty of Agricultural Sciences
+                  </Link>
+                </li>
+
+                <li>
+                  <Link
+                    to="/electronics"
+                    className="block py-2 px-4 hover:bg-blue-500 hover:text-white"
+                  >
+                    Faculty of Economic Sciences and Management
+                  </Link>
+                </li>
+              </ul>
+            </div>
+          )}
+        </div>
+        <Link to="/Blogs">
+          <ul className="text-white">Blog</ul>
+        </Link>
+
         <Link to="/Contact">
           <ul className="text-white">Contact Us</ul>
         </Link>
