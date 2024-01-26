@@ -37,6 +37,16 @@ const Blogs = () => {
         </div>
       </div>
 
+      <div className="title text-center mt-16">
+        <span className="text-4xl font-bold text-gray-800">Recent Blog</span>
+        <p className="text-base text-gray-600 mt-8">
+          Separated they live in. A small river named Duden flows by their place
+          <br />
+          and supplies it with the necessary regelialia. It is a paradisematic
+          country
+        </p>
+      </div>
+
       <div className="flex justify-between mt-16  shadow-lg ml-10 mr-10">
         <div className="flex flex-col items-center mx-20  shadow-lg bg-white">
           <img

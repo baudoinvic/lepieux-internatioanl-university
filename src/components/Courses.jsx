@@ -7,6 +7,15 @@ const Courses = () => {
         <span class="block text-center text-4xl font-bold text-gray-800 mb-4">
           Courses
         </span>
+        <span class="block text-center text-1xl text-gray-800 mb-4 ml-10 mr-10">
+          this are the courses where we pave the path to your brightest future!
+          Our institution is dedicated to nurturing talent<br /> fostering
+          innovation, and empowering individuals to excel in their chosen
+          fields. As you embark on your educational journey with us<br /> rest
+          assured that you will encounter a myriad of opportunities to sharpen
+          your skills expand your knowledge, and challenge yourself like never
+          before.
+        </span>
       </div>
 
       {/*first row*/}

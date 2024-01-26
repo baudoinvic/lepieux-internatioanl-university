@@ -67,7 +67,7 @@ const Navbar = () => {
             className="text-white flex items-center"
             onClick={toggleCourses}
           >
-            Courses <RiArrowDropDownLine className="ml-1" />
+            Admission <RiArrowDropDownLine className="ml-1" />
           </ul>
           {showCourses && (
             <div
@@ -76,79 +76,30 @@ const Navbar = () => {
             >
               <ul className="p-2 divide-y divide-blue-500">
                 {/* List of academic links */}
+              
+               
                 <li>
                   <Link
                     to="/electronics"
-                    className="block py-2 px-4 hover:bg-blue-500 hover:text-white"
+                    className="block py-4 px-4 hover:bg-blue-500 hover:text-white"
                   >
-                    Electronics and Telecommunication
-                  </Link>
-                </li>
-                <li>
-                  <Link
-                    to="/electrical"
-                    className="block py-2 px-4 hover:bg-blue-500 hover:text-white"
-                  >
-                    Electrical and Renewable Energy
-                  </Link>
-                </li>
-
-                <li>
-                  <Link
-                    to="/electronics"
-                    className="block py-2 px-4 hover:bg-blue-500 hover:text-white"
-                  >
-                    Robotics and Mechatronics
-                  </Link>
-                </li>
-
-                <li>
-                  <Link
-                    to="/electronics"
-                    className="block py-2 px-4 hover:bg-blue-500 hover:text-white"
-                  >
-                    Computer science and Artificial intelligent
-                  </Link>
-                </li>
-
-                <li>
-                  <Link
-                    to="/electronics"
-                    className="block py-2 px-4 hover:bg-blue-500 hover:text-white"
-                  >
-                    Mechanics
+                   Admision Requirements
                   </Link>
                 </li>
                 <li>
                   <Link
                     to="/electronics"
-                    className="block py-2 px-4 hover:bg-blue-500 hover:text-white"
+                    className="block py-4 px-4 hover:bg-blue-500 hover:text-white"
                   >
-                    Civil engineering and Architecture
+                    Fees Structure
                   </Link>
                 </li>
                 <li>
                   <Link
                     to="/electronics"
-                    className="block py-2 px-4 hover:bg-blue-500 hover:text-white"
+                    className="block py-4 px-4 hover:bg-blue-500 hover:text-white"
                   >
-                    petroleum
-                  </Link>
-                </li>
-                <li>
-                  <Link
-                    to="/electronics"
-                    className="block py-2 px-4 hover:bg-blue-500 hover:text-white"
-                  >
-                    Agronomy
-                  </Link>
-                </li>
-                <li>
-                  <Link
-                    to="/electronics"
-                    className="block py-2 px-4 hover:bg-blue-500 hover:text-white"
-                  >
-                    Economics and business studies
+                    Departments
                   </Link>
                 </li>
               </ul>
