@@ -1,4 +1,6 @@
 import React from 'react'
+import { IoIosArrowRoundForward } from "react-icons/io";
+import { Link } from 'react-router-dom';
 
 const Header = () => {
     
@@ -21,12 +23,17 @@ const Header = () => {
               <br></br>
               more about technology. Don't hesitate to reach out to us.
             </p>
-            <button
-              class="bg-blue-500 text-white px-8 py-2 rounded"
-              style={{ marginTop: "2rem" }}
-            >
-              Contact Us
-            </button>
+            <Link to="/Application">
+              <button
+                className="bg-blue-500 text-white px-8 py-4 rounded flex items-center mx-auto"
+                style={{ marginTop: "2rem" }}
+              >
+                Learn More
+                <span className="ml-1">
+                  <IoIosArrowRoundForward className="text-2xl" />
+                </span>
+              </button>
+            </Link>
           </div>
         </div>
       </div>

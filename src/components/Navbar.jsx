@@ -16,7 +16,7 @@ const Navbar = () => {
        };
 
   return (
-    <div className="">
+    <div className="fixed top-0 w-full z-50 ">
       <div className="navbar bg-white text-black shadow-md p-4 flex justify-between items-center ">
         <div className="up-side flex items-center space-x-40 ">
           <h1 className="text-xl font-bold">
@@ -25,14 +25,14 @@ const Navbar = () => {
 
           <div class="flex items-center space-x-4">
             <div class="flex items-center">
-              <span class="mr-2 font-bold">Email</span>
+              <span class="mr-2 text-gray-800 font-bold">Email</span>
               <div class="flex items-center">
                 <MdOutlineEmail class="mr-1 text-blue-500" />
-                <p class="font-light">lepieux@gmail.com</p>
+                <p class="font-light text">lepieux@gmail.com</p>
               </div>
             </div>
             <div class="flex items-center">
-              <span class="mr-2 font-bold">Call Us:</span>
+              <span class="mr-2 font-bold text-gray-800">Call Us:</span>
               <div class="flex items-center">
                 <IoCallOutline class="mr-1 text-blue-500" />
                 <p class="font-light">+250782012138</p>
@@ -45,7 +45,7 @@ const Navbar = () => {
         </button>
       </div>
 
-      <div className="bg-blue-500 p-9 flex items-center space-x-8 justify-end cursor-pointer relative z-10">
+      <div className="bg-gray-800 p-9 flex items-center space-x-8 justify-end cursor-pointer relative z-10">
         <Link to="/Homepage">
           <ul className="text-white">Home</ul>
         </Link>
