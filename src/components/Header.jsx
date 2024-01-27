@@ -19,9 +19,11 @@ const Header = () => {
               Le Pieux International University
             </h1>
             <p class="text-lg mb-4 font-bold">
-              Welcome to this wonderful university in Africa where we explore
+              Welcome to Le Pieux International University in Congo Drc, where
+              we explore
               <br></br>
-              more about technology. Don't hesitate to reach out to us.
+              Welcome to Le Pieux International University in Africa, where we
+              explore
             </p>
             <Link to="/Application">
               <button
