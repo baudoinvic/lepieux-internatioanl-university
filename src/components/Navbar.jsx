@@ -96,10 +96,10 @@ const Navbar = () => {
                 </li>
                 <li>
                   <Link
-                    to="/electronics"
+                    to="/International"
                     className="block py-4 px-4 hover:bg-blue-500 hover:text-white"
                   >
-                    Departments
+                   international students
                   </Link>
                 </li>
               </ul>
