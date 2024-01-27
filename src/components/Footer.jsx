@@ -30,7 +30,7 @@ import { Link } from 'react-router-dom';
                     </li>
                   </Link>
 
-                  <Link to="/About">
+                  <Link to="/about">
                     <li class="flex items-center mb-4">
                       <IoIosArrowRoundForward className="text-white" />
                       <a href="" class="ml-2">

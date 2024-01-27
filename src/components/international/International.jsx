@@ -21,12 +21,15 @@ const International = () => {
         <div class="w-1/3">
           <nav>
             <ul>
-              <a
-                href="#"
-                class="block py-4 px-4 text-blue-600 hover:bg-gray-200"
-              >
-                Consultancy
-              </a>
+              <Link to="/Consultant">
+                <a
+                  href="#"
+                  class="block py-4 px-4 text-blue-600 hover:bg-gray-200"
+                >
+                  Consultancy
+                </a>
+              </Link>
+
               <Link to="/Laboratory">
                 <a
                   href="#"
@@ -45,12 +48,14 @@ const International = () => {
                 </a>
               </Link>
 
-              <a
-                href="#"
-                class="block py-4 px-4 text-blue-600 hover:bg-gray-200"
-              >
-                Tuition & Fees
-              </a>
+              <Link to="/Fees">
+                <a
+                  href="#"
+                  class="block py-4 px-4 text-blue-600 hover:bg-gray-200"
+                >
+                  Tuition & Fees
+                </a>
+              </Link>
             </ul>
           </nav>
         </div>

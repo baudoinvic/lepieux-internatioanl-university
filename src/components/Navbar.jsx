@@ -24,9 +24,11 @@ const Navbar = () => {
     <div className="fixed top-0 w-full z-50 ">
       <div className="navbar bg-white text-black shadow-md p-4 flex justify-between items-center ">
         <div className="up-side flex items-center space-x-40 ml-10">
-          <h1 className="text-xl font-bold">
-            LE PIEUX<br></br>UNIVERSITY
-          </h1>
+          <Link to="/Homepage">
+            <h1 className="text-xl font-bold">
+              LE PIEUX<br></br>UNIVERSITY
+            </h1>
+          </Link>
 
           <div class="flex items-center space-x-4">
             <div class="flex items-center">
@@ -58,15 +60,11 @@ const Navbar = () => {
         <Link to="/About">
           <ul className="text-white">About Us</ul>
         </Link>
-      
 
         {/*Dropdown for Courses*/}
 
         <div className="relative ">
-          <ul
-            className="text-white flex items-center"
-            onClick={toggleCourses}
-          >
+          <ul className="text-white flex items-center" onClick={toggleCourses}>
             Admission <RiArrowDropDownLine className="ml-1" />
           </ul>
           {showCourses && (
@@ -76,14 +74,13 @@ const Navbar = () => {
             >
               <ul className="p-2 divide-y divide-blue-500">
                 {/* List of academic links */}
-              
-               
+
                 <li>
                   <Link
                     to="/Application"
                     className="block py-4 px-4 hover:bg-blue-500 hover:text-white"
                   >
-                   Admision Requirements
+                    Admision Requirements
                   </Link>
                 </li>
                 <li>
@@ -99,7 +96,7 @@ const Navbar = () => {
                     to="/International"
                     className="block py-4 px-4 hover:bg-blue-500 hover:text-white"
                   >
-                   international students
+                    international students
                   </Link>
                 </li>
               </ul>

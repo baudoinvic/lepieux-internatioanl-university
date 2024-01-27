@@ -19,6 +19,7 @@ import International from './components/international/International'
 import Laboratory from './components/Labo/Laboratory'
 import Signup from './components/Signup.jsx/Signup'
 import Login from './components/Login/Login'
+import Consulant from './components/Consulant/Consulant'
 
 function App() {
 
@@ -61,6 +62,7 @@ function App() {
            <Route path='/Laboratory' element={<Laboratory/>} />
            <Route path= "/Signup" element= {<Signup/>} />
            <Route path='/Login' element={<Login />} />
+           <Route path='/Consultant' element={<Consulant />} />
         </Routes>
       </BrowserRouter>
        
