@@ -17,6 +17,8 @@ import Blogs from './components/Blogs/Blogs'
 import Fees from './components/Fees/Fees'
 import International from './components/international/International'
 import Laboratory from './components/Labo/Laboratory'
+import Signup from './components/Signup.jsx/Signup'
+import Login from './components/Login/Login'
 
 function App() {
 
@@ -57,6 +59,8 @@ function App() {
            <Route path='/Fees' element={<Fees />} />
            <Route path='/International' element={<International  />} />
            <Route path='/Laboratory' element={<Laboratory/>} />
+           <Route path= "/Signup" element= {<Signup/>} />
+           <Route path='/Login' element={<Login />} />
         </Routes>
       </BrowserRouter>
        

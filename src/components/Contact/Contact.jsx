@@ -13,19 +13,19 @@ function Contact() {
       <div class="relative">
         <img
           class="w-full object-cover shadow-md"
-          style={{ height: "450px" }}
+          style={{ height: "600px" }}
           src="https://campus.websitelayout.net/img/bg/page-title.jpg"
           alt="Description"
         />
 
-        <div class="absolute inset-0 flex flex-col items-center justify-center md:justify-start text-center md:text-left p-8 md:p-16 mt-8 md:mt-16">
+        <div class="absolute inset-0 flex flex-col items-center justify-center md:justify-start text-center md:text-left p-8 md:p-16 mt-8 md:mt-16" style={{marginTop: '15rem'}}>
           <button class="px-4 py-4 text-4xl text-white font-bold rounded  md:mr-16">
             Contac Us
           </button>
 
           <div className="flex items-center">
             <IoIosArrowRoundForward className="text-white text-lg" />
-            <span className="mr-2 text-lg text-white cursor-pointer">Home</span>
+            <span className="mr-2 text-lg font-bold text-white cursor-pointer">Home</span>
 
             <span className="ml-2 text-lg text-blue-500">Contact Us</span>
           </div>

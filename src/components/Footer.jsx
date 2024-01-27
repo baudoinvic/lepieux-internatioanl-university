@@ -8,6 +8,7 @@
  import { AiOutlineMail } from "react-icons/ai";
  import { MdOutlineLocationOn } from "react-icons/md";
  import { IoIosArrowRoundForward } from "react-icons/io";
+import { Link } from 'react-router-dom';
 
 
   const Footer = () => {
@@ -20,43 +21,53 @@
 
               <nav>
                 <ul class="text-blue-500">
+                  <Link to="/Homepage">
+                    <li class="flex items-center mb-4">
+                      <IoIosArrowRoundForward className="text-white" />
+                      <a href="" class="ml-2">
+                        Home
+                      </a>
+                    </li>
+                  </Link>
+
+                  <Link to="/About">
+                    <li class="flex items-center mb-4">
+                      <IoIosArrowRoundForward className="text-white" />
+                      <a href="" class="ml-2">
+                        About us
+                      </a>
+                    </li>
+                  </Link>
+
                   <li class="flex items-center mb-4">
                     <IoIosArrowRoundForward className="text-white" />
                     <a href="" class="ml-2">
-                      Home
+                      Academics
                     </a>
                   </li>
-                  <li class="flex items-center mb-4">
-                    <IoIosArrowRoundForward className="text-white" />
-                    <a href="" class="ml-2">
-                      About us
-                    </a>
-                  </li>
-                  <li class="flex items-center mb-4">
-                    <IoIosArrowRoundForward className="text-white" />
-                    <a href="" class="ml-2">
-                      Staff
-                    </a>
-                  </li>
-                  <li class="flex items-center mb-4">
-                    <IoIosArrowRoundForward className="text-white" />
-                    <a href="" class="ml-2">
-                      Blog
-                    </a>
-                  </li>
-                  <li class="flex items-center mb-4">
-                    <IoIosArrowRoundForward className="text-white" />
-                    <a href="" class="ml-2">
-                      Contact us
-                    </a>
-                  </li>
+                  <Link to="/Blogs">
+                    <li class="flex items-center mb-4">
+                      <IoIosArrowRoundForward className="text-white" />
+                      <a href="" class="ml-2">
+                        Blog
+                      </a>
+                    </li>
+                  </Link>
+
+                  <Link to="/Contact">
+                    <li class="flex items-center mb-4">
+                      <IoIosArrowRoundForward className="text-white" />
+                      <a href="" class="ml-2">
+                        Contact us
+                      </a>
+                    </li>
+                  </Link>
                 </ul>
               </nav>
             </div>
 
             <div class="w-full md:w-1/2 lg:w-1/4">
               <h2 class="text-white text-2xl mb-4">Have a questions?</h2>
-            
 
               <nav class=" py-4">
                 <ul class="text-blue-500">
@@ -82,7 +93,7 @@
                     <p class="text-sm">lepieux@gmail.com</p>
                   </li>
                   <li class="flex items-center mb-4">
-                    <MdOutlineLocationOn className='mr-2 text-white' />
+                    <MdOutlineLocationOn className="mr-2 text-white" />
                     <a href="#" class="font-bold mr-2">
                       Location
                     </a>

@@ -23,7 +23,7 @@ const Navbar = () => {
   return (
     <div className="fixed top-0 w-full z-50 ">
       <div className="navbar bg-white text-black shadow-md p-4 flex justify-between items-center ">
-        <div className="up-side flex items-center space-x-40 ">
+        <div className="up-side flex items-center space-x-40 ml-10">
           <h1 className="text-xl font-bold">
             LE PIEUX<br></br>UNIVERSITY
           </h1>
@@ -45,9 +45,9 @@ const Navbar = () => {
             </div>
           </div>
         </div>
-        <button className="bg-blue-500 text-white px-4 py-2 rounded-md">
+        {/* <button className="bg-blue-500 text-white px-4 py-4 rounded-md opacity-55">
           Apply Now
-        </button>
+        </button> */}
       </div>
 
       <div className="bg-gray-800 p-9 flex items-center space-x-8 justify-end cursor-pointer relative z-10">
