@@ -16,6 +16,7 @@ import Application from './components/Requirement/Application'
 import Blogs from './components/Blogs/Blogs'
 import Fees from './components/Fees/Fees'
 import International from './components/international/International'
+import Laboratory from './components/Labo/Laboratory'
 
 function App() {
 
@@ -31,16 +32,7 @@ function App() {
     };
 
   return (
-    // <>
-
-    //  <Navbar />
-    //  <Header />
-    //  <Campus />
-    //  <Courses />
-    //  <Quote />
-    //  <Blog />
-    //  <Footer />
-    // </>
+  
 
     <div>
       <BrowserRouter>
@@ -64,6 +56,7 @@ function App() {
            <Route path='/Blogs' element={<Blogs/>} />
            <Route path='/Fees' element={<Fees />} />
            <Route path='/International' element={<International  />} />
+           <Route path='/Laboratory' element={<Laboratory/>} />
         </Routes>
       </BrowserRouter>
        

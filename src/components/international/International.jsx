@@ -1,13 +1,14 @@
 import React from 'react'
 import Navbar from '../Navbar';
 import Footer from '../Footer';
+import { Link } from 'react-router-dom';
 
 const International = () => {
   return (
     <>
       <Navbar />
 
-      <div className="international-student " style={{marginTop: '10rem'}}>
+      <div className="international-student " style={{ marginTop: "10rem" }}>
         <h1 className="text-white text-3xl bg-blue-500 p-4 md:p-9 flex items-center space-x-8 justify-left">
           International Students
         </h1>
@@ -26,18 +27,24 @@ const International = () => {
               >
                 Consultancy
               </a>
-              <a
-                href="#"
-                class="block py-4 px-4 text-blue-600 hover:bg-gray-200"
-              >
-                Research Laboratories
-              </a>
-              <a
-                href="#"
-                class="block py-4 px-4 text-blue-600 hover:bg-gray-200"
-              >
-                Admissions Requirements
-              </a>
+              <Link to="/Laboratory">
+                <a
+                  href="#"
+                  class="block py-4 px-4 text-blue-600 hover:bg-gray-200"
+                >
+                  Research Laboratories
+                </a>
+              </Link>
+
+              <Link to="/Application">
+                <a
+                  href="#"
+                  class="block py-4 px-4 text-blue-600 hover:bg-gray-200"
+                >
+                  Admissions Requirements
+                </a>
+              </Link>
+
               <a
                 href="#"
                 class="block py-4 px-4 text-blue-600 hover:bg-gray-200"
@@ -56,51 +63,50 @@ const International = () => {
           ></img>
           <div class="description mb-4">
             <span>
-              At Kigali Independent University ULK, we believe in the mantra
+              At Le Pieux International University, we believe in the mantra
               that students matter most regardless where they are from.
-              International students should find ULK their loving and caring
-              home. Still on this, international students are always guided and
-              helped to discover more about the university. In so doing, they
-              are provided with numerous services such as enabling them to get
-              accommodations, guiding them in the introduction week to learn
-              more about the university, advocacy for getting visas to mention
-              but a few.
+              International students should find Le Pieux university their
+              loving and caring home. Still on this, international students are
+              always guided and helped to discover more about the university. In
+              so doing, they are provided with numerous services such as
+              enabling them to get accommodations, guiding them in the
+              introduction week to learn more about the university, advocacy for
+              getting visas to mention but a few.
             </span>
           </div>
           <span class="bg-blue-500 text-white py-2 px-4 rounded hover:bg-blue-600">
             Assistance
           </span>
           <span class="block mt-4">
-            At Kigali Independent University ULK, we believe in the mantra that
+            At Le Pieux International Univeristy, we believe in the mantra that
             students matter most regardless where they are from. International
-            students should find ULK their loving and caring home. Still on
-            this, international students are always guided and helped to
-            discover more about the university. In so doing, they are provided
-            with numerous services such as enabling them to get accommodations,
-            guiding them in the introduction week to learn more about the
-            university, advocacy for getting visas to mention but a few.
-            ACCOMODATION As for accommodation, ULK Gisenyi Campus has some
+            students should find Le Pieux university their loving and caring
+            home. Still on this, international students are always guided and
+            helped to discover more about the university. In so doing, they are
+            provided with numerous services such as enabling them to get
+            accommodations, guiding them in the introduction week to learn more
+            about the university, advocacy for getting visas to mention but a
+            few. ACCOMODATION As for accommodation, Le Pieux Campus has some
             hostels for international and local students wishing to stay on the
             campus during their studies. Affordable fees are charged on a
             monthly basis and the management of the hostels provides students
-            with water, electricity,
+            with water and electricity
           </span>
           <button class="bg-blue-500 text-white py-2 px-4 rounded mt-4 hover:bg-blue-600">
             ACCOMODATION
           </button>
           <span class="block mt-4">
-            At Kigali Independent University ULK, we believe in the mantra that
+            At Le pieux international university , we believe in the mantra that
             students matter most regardless where they are from. International
             students should find ULK their loving and caring home. Still on
             this, international students are always guided and helped to
             discover more about the university. In so doing, they are provided
             with numerous services such as enabling them to get accommodations,
-            guiding them in
+            guiding them as well
           </span>
         </div>
       </div>
       <Footer />
-
     </>
   );
 }
