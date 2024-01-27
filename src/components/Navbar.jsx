@@ -58,7 +58,7 @@ const Navbar = () => {
         <Link to="/About">
           <ul className="text-white">About Us</ul>
         </Link>
-        {/* <ul className="text-white">Courses</ul> */}
+      
 
         {/*Dropdown for Courses*/}
 
@@ -80,7 +80,7 @@ const Navbar = () => {
                
                 <li>
                   <Link
-                    to="/electronics"
+                    to="/Application"
                     className="block py-4 px-4 hover:bg-blue-500 hover:text-white"
                   >
                    Admision Requirements
@@ -88,7 +88,7 @@ const Navbar = () => {
                 </li>
                 <li>
                   <Link
-                    to="/electronics"
+                    to="/Fees"
                     className="block py-4 px-4 hover:bg-blue-500 hover:text-white"
                   >
                     Fees Structure

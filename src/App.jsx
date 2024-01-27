@@ -14,6 +14,7 @@ import Quote from './components/Quote'
 import { BrowserRouter, Routes, Route, Outlet } from "react-router-dom";
 import Application from './components/Requirement/Application'
 import Blogs from './components/Blogs/Blogs'
+import Fees from './components/Fees/Fees'
 
 function App() {
 
@@ -60,6 +61,7 @@ function App() {
           <Route path="/homepage" element={<Homepage />} />
            <Route path='/Application' element={<Application/>} />
            <Route path='/Blogs' element={<Blogs/>} />
+           <Route path='/Fees' element={<Fees />} />
         </Routes>
       </BrowserRouter>
        
