@@ -1,46 +1,43 @@
-import React from 'react'
+import React from "react";
 import { IoIosArrowRoundForward } from "react-icons/io";
-import { Link } from 'react-router-dom';
+import { Link } from "react-router-dom";
 
 const Header = () => {
-    
   return (
     <div className="header relative overflow-hidden" data-overlay-dark="6">
       <div class="slider flex transition-transform ease-in-out duration-500  ">
         <div class="slide min-w-full overflow-hidden relative ">
           <img
-            src="https://preview.colorlib.com/theme/fox/images/bg_3.jpg.webp"
+            src="https://www.arizona.edu/admissions/static/4580c5666806287d987307a3049e3a10/bcf8a/uarizona-block-a-logo_1.webp"
             alt="Image 1"
-            class="w-full inset-0 bg-black opacity-65 "
+            class="w-full inset-0 bg-black opacity-75  "
             style={{ height: "1000px" }}
           ></img>
-          <div class="text-overlay absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-center text-white ml-20">
-            <h1 class="text-6xl font-bold mb-4 opacity-1">
-              Le Pieux International University
+
+          <div class="text-overlay absolute top-1/2 left-0 transform -translate-y-1/2 text-center text-white ml-20">
+            <h1 class="text-6xl font-bold mb-4 opacity-1 text-left">
+              Le Pieux International
+              <br /> University
             </h1>
-            <p class="text-lg mb-4 font-bold">
-              Welcome to Le Pieux International University in Congo Drc, where
-              we explore
+            <p class="text-lg mb-4 font-bold text-left">
+              Welcome to Le Pieux International University
               <br></br>
-              Welcome to Le Pieux International University in Africa, where we
-              explore
+              We're happy to connect with you in whatever way you're most
+              comfortable
             </p>
-            <Link to="/Application">
-              <button
-                className="bg-blue-500 text-white px-8 py-4 rounded flex items-center mx-auto"
-                style={{ marginTop: "2rem" }}
-              >
+            <a href="/Application" class="flex justify-start">
+              <button class="bg-gray-800 text-white px-8 py-4 rounded flex items-center mt-8">
                 Learn More
-                <span className="ml-1">
-                  <IoIosArrowRoundForward className="text-2xl" />
+                <span class="ml-1">
+                  <IoIosArrowRoundForward class="text-2xl" />
                 </span>
               </button>
-            </Link>
+            </a>
           </div>
         </div>
       </div>
     </div>
   );
-}
+};
 
-export default Header
+export default Header;

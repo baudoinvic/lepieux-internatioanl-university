@@ -1,157 +1,60 @@
-import React from 'react'
+import React from "react";
+import { RiBuilding2Line } from "react-icons/ri";
+import { FaDesktop } from "react-icons/fa";
+import { SiLinear } from "react-icons/si";
+import { GiWorld } from "react-icons/gi";
 
 const Courses = () => {
   return (
     <div className="courses ml-10 mr-10">
-      <div class="flex flex-col items-center justify-center mt-16">
-        <span class="block text-center text-4xl font-bold text-gray-800 mb-4">
-          Courses
+      <div class="flex flex-col left justify-left mt-16 ml-10 mr-10">
+        <span class="block text-left text-4xl font-bold text-gray-800 mb-4 ml-12">
+          Ways to Attend the <br />
+          University of le pieux
         </span>
-        <span class="block text-center text-1xl text-gray-800 mb-4 ml-10 mr-10">
-          this are the courses where we pave the path to your brightest future!
-          Our institution is dedicated to nurturing talent<br /> fostering
-          innovation, and empowering individuals to excel in their chosen
-          fields. As you embark on your educational journey with us<br /> rest
-          assured that you will encounter a myriad of opportunities to sharpen
-          your skills expand your knowledge, and challenge yourself like never
-          before.
+        <span class="block text-left text-1xl  mb-4 ml-12 mt-10">
+          World-renowned academics – wherever you are.
+          <br /> Pursue an education with international recognition, incredible
+          research opportunities
+          <br /> and benefits that continue long after you graduate.
         </span>
       </div>
 
       {/*first row*/}
 
       <div class="">
-        <div class="flex flex-col md:flex-row md:justify-center items-center space-y-4 md:space-x-4 md:space-y-0 p-10  ">
-          <div class="bg-white shadow-md p-6 rounded-lg transition-transform transform hover:scale-105 cursor-pointer ">
-            <img
-              src="https://electronics.celnet.in/wp-content/uploads/2021/08/smart-grid-power-electronics-.jpg"
-              class="w-75 h-64"
-              alt="Electronics and telecommunication"
-            ></img>
-            <span className="text-xl font-bold mb-4">
-              Bachelor degree in <br></br>Electronics and telecommunication
-            </span>
+        <div class="flex flex-col md:flex-row md:justify-left items-left space-y-16 md:space-x-8 md:space-y-0 p-10 mt-10">
+          <div class="transition-transform transform hover:scale-105 cursor-pointer mx-16">
+            <RiBuilding2Line className="text-8xl text-blue-500" />
+            <span className="text-xl font-bold mb-4">Main Campus</span>
+            <p className="mt-4">
+              Hundreds of degree choices
+              <br /> at our campus
+            </p>
           </div>
 
-          <div class="bg-white shadow-md p-6 rounded-lg  transition-transform transform hover:scale-105 cursor-pointer">
-            <img
-              src="https://i0.wp.com/digirupt.io/wp-content/uploads/2019/04/distributedgrid.jpg?fit=1200%2C800&ssl=1"
-              class="w-75 h-64"
-              alt="Electrical and renewable energy"
-            ></img>
-            <span className="text-xl font-bold mb-4">
-              Bachelor degree in <br /> Electrical and renewable energy
-            </span>
+          <div class="transition-transform transform hover:scale-105 cursor-pointer mx-16">
+            <FaDesktop className="text-8xl text-blue-500" />
+            <span className="text-xl font-bold mb-4">Online</span>
+            <p className="mt-4">Your education on your schedule</p>
           </div>
 
-          <div class="bg-white shadow-md p-6 rounded-lg transition-transform transform hover:scale-105 cursor-pointer">
-            <img
-              src="https://www.monash.edu/__data/assets/image/0011/2481464/Manufacturing-Robots.jpg"
-              class="w-75 h-64"
-              alt="Robotics and Mechatronics"
-            ></img>
-            <span className="text-xl font-bold mb-4">
-              Bachelor degree in <br /> Robotics and Mechatronics
-            </span>
+          <div class="transition-transform transform hover:scale-105 cursor-pointer mx-16">
+            <SiLinear className="text-8xl text-blue-500" />
+            <span className="text-xl font-bold mb-4">Near Your Network</span>
+            <p className="mt-4">Le pieux university degree across the state</p>
+          </div>
+
+          <div class="transition-transform transform hover:scale-105 cursor-pointer mx-16 ml-10">
+            <GiWorld className="text-8xl text-blue-500" />
+            <span className="text-xl font-bold mb-4">International</span>
+            <p className="mt-4">Worldwide campus and abroad programs</p>
           </div>
         </div>
       </div>
-
       {/* Second row */}
-
-      <div class="">
-        <div class="flex flex-col md:flex-row md:justify-center items-center space-y-4 md:space-x-4 md:space-y-0 p-10">
-          <div class="bg-white shadow-md p-6 rounded-lg transition-transform transform hover:scale-105 cursor-pointer">
-            <img
-              src="https://static.kent.ac.uk/nexus/ems/1414.jpg"
-              class="w-75 h-64"
-            ></img>
-            <span class="text-xl font-bold mb-4">
-              Bachelor degree in <br /> Computer science and Artificial
-              intelligent
-            </span>
-          </div>
-
-          <div class="bg-white shadow-md p-6 rounded-lg transition-transform transform hover:scale-105 cursor-pointer">
-            <img
-              src="https://media.licdn.com/dms/image/D4D12AQEX7UIsfWeeSQ/article-cover_image-shrink_720_1280/0/1676291348686?e=2147483647&v=beta&t=FAXQPYUkYNuOSaEJ3NQlGFBv70T7mIv87zWKQvq6ONw"
-              class="w-75 h-64"
-            ></img>
-            <span class="text-xl font-bold mb-4">
-              {" "}
-              Bachelor degree in
-              <br /> Mechanics
-            </span>
-          </div>
-
-          <div class="bg-white shadow-md p-6 rounded-lg transition-transform transform hover:scale-105 cursor-pointer">
-            <img
-              src="https://www.collegenp.com/uploads/2023/02/Engineering-Update.png"
-              class="w-75 h-64"
-            ></img>
-            <span class="text-xl font-bold mb-4">
-              Bachelor degree in <br /> Civil engineering and Architecture
-            </span>
-          </div>
-        </div>
-      </div>
-
-      {/* third row */}
-
-      <div class="">
-        <div class="flex flex-col md:flex-row md:justify-center items-center space-y-4 md:space-x-4 md:space-y-0 p-10">
-          <div class="bg-white shadow-md p-6 rounded-lg transition-transform transform hover:scale-105 cursor-pointer">
-            <img
-              src="https://gnnhd.tv/media/90775/conversions/351146_9914876_updates-1280x720.webp"
-              class="w-75 h-64"
-            ></img>
-            <span class="text-xl font-bold mb-4">
-              Bachelor degree in <br /> petroleum
-            </span>
-          </div>
-
-          <div class="bg-white shadow-md p-6 rounded-lg transition-transform transform hover:scale-105 cursor-pointer">
-            <img
-              src="https://upload-china-admissions.imgix.net/uploads/school_pictures/NUUA_internal.jpg?auto=format,enhance,redeye,compress,true"
-              class="w-75 h-64"
-            ></img>
-            <span class="text-xl font-bold mb-4">
-              {" "}
-              Bachelor degree in <br /> Aeronautics and Aerospace Engineering{" "}
-            </span>
-          </div>
-
-          <div class="bg-white shadow-md p-6 rounded-lg transition-transform transform hover:scale-105 cursor-pointer">
-            <img
-              src="https://pasdept.wisc.edu/wp-content/uploads/sites/384/2023/06/Designed-farm-fields.jpeg"
-              class="w-75 h-64"
-            ></img>
-            <span class="text-xl font-bold mb-4">
-              {" "}
-              Bachelor degree in <br /> Agronomy
-            </span>
-          </div>
-        </div>
-      </div>
-
-      {/* fourth row */}
-
-      <div class="">
-        <div class="flex flex-col md:flex-row md:justify-left items-left space-y-4 md:space-x-4 md:space-y-0 p-10">
-          <div class="bg-white shadow-md p-6 rounded-lg transition-transform transform hover:scale-105 cursor-pointer">
-            <img
-              src="https://internationaljournalofresearch.files.wordpress.com/2020/07/images-6-2.jpeg?w=672&h=372&crop=1"
-              class="w-75 h-64"
-            ></img>
-            <span class="text-xl font-bold mb-4">
-              {" "}
-              Bachelor Degree in <br /> Economics and business studies
-            </span>
-          </div>
-        </div>
-      </div>
     </div>
   );
-}
+};
 
-export default Courses
+export default Courses;

@@ -111,14 +111,14 @@ import { Link } from "react-router-dom";
                   required
                 />
               </div>
-              {/* <div className="flex justify-center">
+              <div className="flex justify-center">
                 <button
                   className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline"
                   type="submit"
                 >
                   Register
                 </button>
-              </div> */}
+              </div>
             </form>
             <p className="text-gray-600 text-center mt-4">
               Already have an account?{" "}

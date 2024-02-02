@@ -5,8 +5,9 @@ import { IoIosArrowRoundForward } from "react-icons/io";
 
 const Campus = () => {
   return (
+    
     <div
-      class="flex items-center justify-between p-4 ml-10 mr-10 space-x-14"
+      class="flex items-center justify-between p-4 ml-10 mr-10 space-x-14 "
       style={{ marginTop: "10rem" }}
     >
       <div
